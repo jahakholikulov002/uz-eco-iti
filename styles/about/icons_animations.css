@@ -1,0 +1,17 @@
+.portret-icons{
+  color:white;
+  transition: all .3s ease; 
+  font-size: 1.3rem;
+} 
+
+.portret-icons:hover{
+    color: #fcb900;
+    transform:translateY(-3px)
+}
+.fa-right-long{
+  transition: all .2s ease;
+}
+
+.fa-right-long{
+  transform: scaleX(1.2);
+}
