@@ -1229,7 +1229,8 @@ body {
     min-height: 100vh;
     }
 body:not(.btPageTransitions) {
-    min-height: 101vh;
+    min-height: 100vh;
+    
     }
 
 /* RTL support */

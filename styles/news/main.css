@@ -1,0 +1,80 @@
+/** @format */
+.main-section-news{
+    background-image: url(../news/ecology-background-with-eco-green-1481924.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.news-container {
+	width: 100%;
+	margin-right: 20px;
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    
+   
+}
+
+.news-card {
+	width: 25%;
+	margin: 40px;
+	background-color: #eee;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+}
+
+.news-card h3 {
+    font-size: 1.3rem;
+	margin-top: 2rem;
+}
+
+.news-card p {
+	height: 300px;
+	margin-bottom: 0;
+	overflow-y: scroll;
+}
+
+.news-card img {
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.news-card .date {
+	position: absolute;
+	/* bottom: 320px; */
+	left: 0;
+	top: 0;
+
+	background-color: #00f018;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 12px;
+}
+
+.pagination {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+    margin-bottom: 2rem;
+}
+
+.pagination button {
+	background-color: #00f018;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin: 0 10px;
+	cursor: pointer;
+    transition: all .5 ease;
+}
+.pagination button:hover {
+transform: scale(1.04);
+border: 1px solid #00f018;
+background-color: #fff;
+color:black;
+}
